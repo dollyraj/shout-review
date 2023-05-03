@@ -9,7 +9,7 @@ The application defines following CRUD APIs.
 
 |Method|Url|Description|
 |----|---|-----------|
-|POST|/movie/add/|Add movie|
+|POST|/movie/add|Add movie|
 |GET|movie/title?title=movieName|Get Movie by Title|
 |GET|/movie/genre?genre=genreType|Find movie by genre|
 
@@ -24,7 +24,7 @@ The application defines following CRUD APIs.
 
 |Method|Url|Description|
 |----|---|-----------|
-|POST|/theater/add/|Create theater|
+|POST|/theater/add|Create theater|
 
 ### Show API
 
