@@ -14,7 +14,7 @@ Build a simple Restful CRUD API for a Movie Review and Ticket Booking system usi
 #### 4. Build and run the app using maven
 ```
 mvn package 
-java -jar target/spring-boot-rest-api-tutorial-0.0.1-SNAPSHOT.jar
+java -jar target/shout-review-0.0.1-SNAPSHOT.jar
 ```
 
 Alternatively, you can run the app without packaging it using -
