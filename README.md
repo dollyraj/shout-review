@@ -2,10 +2,10 @@
 Build a simple Restful CRUD API for a Movie Review and Ticket Booking system using Spring Boot, Mysql, and JPA.
 
 #### 1.  Clone the application
-`https://github.com/dollyraj/blog-app-apis.git`
+`https://github.com/dollyraj/shout-review.git`
 
 #### 2.  Create MYSQL Database
-    create database blogapp
+    create database shoutreview
 
 #### 3.  Change mysql username and password as per your installation
 * Open   `src/main/resources/application.properties` 
