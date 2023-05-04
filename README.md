@@ -1,7 +1,27 @@
 # shout-review
 Build a simple Restful CRUD API for a Movie Review and Ticket Booking system using Spring Boot, Mysql, and JPA.
 
+#### 1.  Clone the application
+`https://github.com/dollyraj/blog-app-apis.git`
 
+#### 2.  Create MYSQL Database
+    create database blogapp
+
+#### 3.  Change mysql username and password as per your installation
+* Open   `src/main/resources/application.properties` 
+* change `spring.datasource.username` and `spring.datasource.password` as per your mysql installation
+
+#### 4. Build and run the app using maven
+```
+mvn package 
+java -jar target/spring-boot-rest-api-tutorial-0.0.1-SNAPSHOT.jar
+```
+
+Alternatively, you can run the app without packaging it using -
+
+`mvn spring-boot:run`
+
+The app will start running at http://localhost:8080.
 ## Explore API
 The application defines following CRUD APIs.
 
