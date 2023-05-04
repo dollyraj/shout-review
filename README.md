@@ -18,7 +18,7 @@ java -jar target/shout-review-0.0.1-SNAPSHOT.jar
 ```
 
 Alternatively, you can run the app without packaging it using -
-
+If you use Maven, run the following command in a terminal window (in the complete) directory:
 `mvn spring-boot:run`
 
 The app will start running at http://localhost:8080.
