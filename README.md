@@ -27,9 +27,9 @@ The application defines following CRUD APIs.
 
 ### Movie API
 
-|Method|Url|Description|
-|----|---|-----------|
-|POST|/movie/add|Add movie|
+|Method|Url|Description|Sample|
+|----|---|-----------|------|
+|POST|/movie/add|Add movie|[link](https://github.com/dollyraj/shout-review#add-movie---movieadd)|
 |GET|/movie/title?title=movieName|Get Movie by Title|
 |GET|/movie/genre?genre=genreType|Find movie by genre|
 
