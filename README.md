@@ -63,7 +63,7 @@ The application defines following CRUD APIs.
 |GET|/user/userId|Get User|
 
 
-###Ticket Api
+### Ticket Api
 |Method|Url|Description|
 |----|---|-----------|
 |POST|/ticket/book|Book movie ticket|
@@ -73,9 +73,9 @@ The application defines following CRUD APIs.
 
 <!-- ### Sample Valid JSON Request Bodies -->
 
-Create User -> /user/signup
+ Create User -> /user/signup
 
-```
+```http
 {
     "name":"Shaun",
     "password":"movie",
@@ -85,7 +85,7 @@ Create User -> /user/signup
 }
 ```
 Add Movie -> /movie/add
-```
+```http
 {
     "title":"wingman",
     "genre":"ACTION"
@@ -93,7 +93,7 @@ Add Movie -> /movie/add
 ```
 
 Add Review -> /review/add
-```
+```http
 {
     "movieReview":"Good",
     "rating":3,
@@ -103,16 +103,16 @@ Add Review -> /review/add
 
 Add Theater -> /theater/add
 
-```
+```http
 {
     "name":"nexus pvr2",
     "city":"pune",
     "address":"xyz street"
 }
 ```
-Add Show
 
-```
+Add Show
+```http
 {
     "showTime":"2023-04-30T18:00:00",
     "movieId":5,
@@ -122,7 +122,7 @@ Add Show
 
 Book Movie Ticket
 
-```
+```http
 {
     "seatsNumbers":["1A","1B"],
     "userId":2,
