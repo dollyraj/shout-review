@@ -111,7 +111,7 @@ Add Theater -> /theater/add
 }
 ```
 
-Add Show
+Add Show ->/show/add
 ```http
 {
     "showTime":"2023-04-30T18:00:00",
@@ -120,7 +120,7 @@ Add Show
 }
 ```
 
-Book Movie Ticket
+Book Movie Ticket ->/ticket/book
 
 ```http
 {
