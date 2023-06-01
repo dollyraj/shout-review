@@ -38,19 +38,19 @@ The application defines following CRUD APIs.
 
 |Method|Url|Description|Sample|
 |----|---|-----------|------|
-|POST|/review/add/movieId|Add review to a movie with given movieId|[JSON](https://github.com/dollyraj/shout-review#review-api)|
+|POST|/review/add/movieId|Add review to a movie with given movieId|[JSON](https://github.com/dollyraj/shout-review#add-review---reviewadd)|
 
 ### Theater API
 
 |Method|Url|Description|Sample|
 |----|---|-----------|-------|
-|POST|/theater/add|Create theater|[JSON](https://github.com/dollyraj/shout-review#theater-api)|
+|POST|/theater/add|Create theater|[JSON](https://github.com/dollyraj/shout-review#add-theater---theateradd)|
 
 ### Show API
 
 |Method|Url|Description|Sample|
 |----|---|-----------|--------|
-|POST|/show/add|Create  show|[JSON](https://github.com/dollyraj/shout-review#show-api)|
+|POST|/show/add|Create  show|[JSON](https://github.com/dollyraj/shout-review#add-show--showadd)|
 |GET|/show/search?city=x|Search show in a city|
 |GET|/show/search?city=x&theaterName=y|
 |GET|/show/search?city=a&movieName=b|
@@ -66,7 +66,7 @@ The application defines following CRUD APIs.
 ### Ticket Api
 |Method|Url|Description|Sample|
 |----|---|-----------|------|
-|POST|/ticket/book|Book movie ticket|[JSON](https://github.com/dollyraj/shout-review#ticket-api)|
+|POST|/ticket/book|Book movie ticket|[JSON](https://github.com/dollyraj/shout-review#book-movie-ticket--ticketbook)|
 
 
 **Test them using postman or any other rest client.**
