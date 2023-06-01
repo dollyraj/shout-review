@@ -73,7 +73,7 @@ The application defines following CRUD APIs.
 
 <!-- ### Sample Valid JSON Request Bodies -->
 
- Create User -> /user/signup
+ #### Create User -> /user/signup
 
 ```http
 {
@@ -84,7 +84,7 @@ The application defines following CRUD APIs.
     "mobile":"+91999278"
 }
 ```
-Add Movie -> /movie/add
+### Add Movie -> /movie/add
 ```http
 {
     "title":"wingman",
@@ -92,7 +92,7 @@ Add Movie -> /movie/add
 }
 ```
 
-Add Review -> /review/add
+### Add Review -> /review/add
 ```http
 {
     "movieReview":"Good",
@@ -101,7 +101,7 @@ Add Review -> /review/add
 }
 ```
 
-Add Theater -> /theater/add
+### Add Theater -> /theater/add
 
 ```http
 {
@@ -111,7 +111,7 @@ Add Theater -> /theater/add
 }
 ```
 
-Add Show ->/show/add
+### Add Show ->/show/add
 ```http
 {
     "showTime":"2023-04-30T18:00:00",
@@ -120,7 +120,7 @@ Add Show ->/show/add
 }
 ```
 
-Book Movie Ticket ->/ticket/book
+### Book Movie Ticket ->/ticket/book
 
 ```http
 {
