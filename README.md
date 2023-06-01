@@ -29,44 +29,44 @@ The application defines following CRUD APIs.
 
 |Method|Url|Description|Sample|
 |----|---|-----------|------|
-|POST|/movie/add|Add movie|[link](https://github.com/dollyraj/shout-review#add-movie---movieadd)|
+|POST|/movie/add|Add movie|[JSON](https://github.com/dollyraj/shout-review#add-movie---movieadd)|
 |GET|/movie/title?title=movieName|Get Movie by Title|
 |GET|/movie/genre?genre=genreType|Find movie by genre|
 
 
 ### Review API
 
-|Method|Url|Description|
-|----|---|-----------|
-|POST|/review/add/movieId|Add review to a movie with given movieId|
+|Method|Url|Description|Sample|
+|----|---|-----------|------|
+|POST|/review/add/movieId|Add review to a movie with given movieId|[JSON](https://github.com/dollyraj/shout-review#review-api)|
 
 ### Theater API
 
-|Method|Url|Description|
-|----|---|-----------|
-|POST|/theater/add|Create theater|
+|Method|Url|Description|Sample|
+|----|---|-----------|-------|
+|POST|/theater/add|Create theater|[JSON](https://github.com/dollyraj/shout-review#theater-api)|
 
 ### Show API
 
-|Method|Url|Description|
-|----|---|-----------|
-|POST|/show/add|Create  show|
+|Method|Url|Description|Sample|
+|----|---|-----------|--------|
+|POST|/show/add|Create  show|[JSON](https://github.com/dollyraj/shout-review#show-api)|
 |GET|/show/search?city=x|Search show in a city|
-|GET|/show/search?city=x&theaterName=y
-|GET|/show/search?city=a&movieName=b
+|GET|/show/search?city=x&theaterName=y|
+|GET|/show/search?city=a&movieName=b|
 
 ### User API
 
-|Method|Url|Description|
-|----|---|-----------|
-|POST|/user/signup|Create  user|
+|Method|Url|Description|Sample|
+|----|---|-----------|-------|
+|POST|/user/signup|Create  user|[JSON](https://github.com/dollyraj/shout-review#create-user---usersignup)|
 |GET|/user/userId|Get User|
 
 
 ### Ticket Api
-|Method|Url|Description|
-|----|---|-----------|
-|POST|/ticket/book|Book movie ticket|
+|Method|Url|Description|Sample|
+|----|---|-----------|------|
+|POST|/ticket/book|Book movie ticket|[JSON](https://github.com/dollyraj/shout-review#ticket-api)|
 
 
 **Test them using postman or any other rest client.**
